@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<!--https://www.xttblog.com/?p=265-->
+<head>
+    <meta charset="UTF-8">
+    <title>沙盘精灵</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <link rel="stylesheet" type="text/css"  href="{{ url_for('static', filename='css/wechat.css') }}">
+      <script type="text/javascript" src="{{ url_for('static', filename='js/wechat.js') }}"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <span style="float: left;">沙盘精灵</span>
+            <span style="float: right;">18:30</span>
+        </div>
+        <ul class="content">
+        </ul>
+        <div class="footer">
+            <div id="user_face_icon">
+                <img src="http://www.xttblog.com/icons/favicon.ico" alt="">
+            </div>
+            <input id="text" type="text" placeholder="说点什么吧...">
+            <span id="btn">发送</span>
+        </div>
+    </div>
+</body>
+</html>
