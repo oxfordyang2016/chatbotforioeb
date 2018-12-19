@@ -99,7 +99,7 @@
                    content.innerHTML += '<li><img src="'+arrIcon[1]+'" class = "imgright"><span class = "spanright">'+text.value+'</span></li>';
                   
 
-                       $.get( "http://47.100.100.141:8080/r1/chatbot?content="+text.value, function( data ) {
+                       $.get( "https://www.blackboxo.top/r1/chatbot?content="+text.value, function( data ) {
                         content.innerHTML += '<li><img src="'+arrIcon[0]+'" class = "imgleft"><span class = "spanleft">'+data.as+'</span></li>';
           }, "json" );
 
