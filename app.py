@@ -22,7 +22,7 @@ def hello():
     #return "Hello World!"
 
 
-from suds.client import Client
+
 
 '''
 from suds.client import Client

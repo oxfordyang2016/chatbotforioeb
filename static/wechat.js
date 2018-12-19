@@ -17,6 +17,7 @@
                     num = 0;
                 }                
             }
+            
             btn.onclick = function(){
                 if(text.value ==''){
                     alert('不能发送空消息');
